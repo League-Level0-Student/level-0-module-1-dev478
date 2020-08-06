@@ -6,6 +6,12 @@ public class Un_Birthday {
 public static void main(String[] args) {
 
 	
-	JOptionPane.showInputDialog(null,"What is your birthday?");
+	String birthday = JOptionPane.showInputDialog(null,"What is your birthday?");
+	if (birthday.equals("08/06")) {
+	JOptionPane.showMessageDialog(null, "Happy Birthday!");
+}
+	else {
+		JOptionPane.showMessageDialog(null, "Happy UNbirthday!");
+	}
 }
 }
